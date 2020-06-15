@@ -1,0 +1,6 @@
+autoloaders:
+  CustomGento: %module%/src
+
+commands:
+  customCommands:
+    - CustomGento\TaxRatesEditor\EditCommand
