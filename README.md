@@ -1,4 +1,5 @@
 # CustomGento Tax Editor
+n98-magerun module to edit the tax configuration.
 
 ## Installation
 There are a few options. You can check out the different options in the [n98-magerun docs](https://magerun.net/introducting-the-new-n98-magerun-module-system/).
