@@ -1,6 +1,6 @@
 {
-    "name": "customgento/magerun-tax-rates-editor",
-    "description": "n98-magerun module to edit tax rates.",
+    "name": "customgento/magerun-tax-editor",
+    "description": "n98-magerun module to edit the tax configuration.",
     "type": "library",
     "require": {
         "n98/magerun": "^1.103",
@@ -14,5 +14,12 @@
     ],
     "license": [
         "OSL-3.0"
-    ]
+    ],
+    "extra": {
+        "magento-root-dir": "magento"
+    },
+    "require-dev": {
+        "aydin-hassan/magento-core-composer-installer": "^1.5",
+        "magento/core": "1.9.4.5"
+    }
 }
