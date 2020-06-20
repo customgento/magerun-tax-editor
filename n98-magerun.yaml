@@ -3,4 +3,4 @@ autoloaders:
 
 commands:
   customCommands:
-    - CustomGento\TaxRatesEditor\EditCommand
+    - CustomGento\TaxEditor\Rates\EditCommand
