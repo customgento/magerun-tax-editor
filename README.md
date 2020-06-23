@@ -14,7 +14,7 @@ Here's the easiest:
 
         cd ~/.n98-magerun/modules/ && git clone https://github.com/customgento/magerun-tax-editor.git customgento-tax-editor
 
-3. The module should be installed. To see that it was installed, check to see if one of the new commands is in there, like `tax:rates:edit`.
+3. The module should be installed. To see that it was installed, check if one of the new commands is in there, like `tax:rates:edit`.
 
         n98-magerun.phar tax:rates:edit --help
 
