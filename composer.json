@@ -19,7 +19,7 @@
         "magento-root-dir": "magento"
     },
     "require-dev": {
-        "aydin-hassan/magento-core-composer-installer": "^1.5",
+        "aydin-hassan/magento-core-composer-installer": "^2.0",
         "magento/core": "1.9.4.5"
     }
 }
