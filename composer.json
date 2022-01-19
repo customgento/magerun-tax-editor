@@ -1,6 +1,6 @@
 {
     "name": "customgento/magerun-tax-editor",
-    "description": "n98-magerun module to edit the tax configuration.",
+    "description": "Tax Editor for Magento 1 adds a n98-magerun command to automatically update tax rates.",
     "type": "library",
     "require": {
         "n98/magerun": "^1.103",
