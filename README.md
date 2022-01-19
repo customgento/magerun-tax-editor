@@ -1,5 +1,5 @@
 # Tax Editor for Magento 1
-Tax Editor for Magento 1 adds a n98-magerun command to automatically update tax rates. This is pretty useful for general tax rate changes in a country, which must be applied exactly at a specific date. It is possible to define a new rate for a range of tax rate IDs.
+Tax Editor for Magento 1 adds a n98-magerun command to update tax rates. This is pretty useful for general tax rate changes in a country, which must be applied exactly at a specific date. It is possible to define a new rate for a range of tax rate IDs.
 
 ## Installation
 There are a few options. You can check out the different options in the [n98-magerun docs](https://magerun.net/introducting-the-new-n98-magerun-module-system/).
