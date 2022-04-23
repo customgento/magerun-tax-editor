@@ -20,6 +20,26 @@
     },
     "require-dev": {
         "aydin-hassan/magento-core-composer-installer": "^2.0",
-        "magento/core": "1.9.4.5"
+        "firegento/magento": "1.9.4.5"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "firegento/magento",
+                "version": "1.9.4.5",
+                "type": "magento-core",
+                "source": {
+                    "url": "https://github.com/mage-one-com/magento-1",
+                    "type": "git",
+                    "reference": "5bf57f3c797c4eecf1f647a940e9aa1d1fec61d7"
+                }
+            }
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "aydin-hassan/magento-core-composer-installer": true
+        }
     }
 }
