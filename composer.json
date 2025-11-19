@@ -3,7 +3,7 @@
     "description": "Tax Editor for Magento 1 adds a n98-magerun command to update tax rates.",
     "type": "library",
     "require": {
-        "n98/magerun": "^2.3",
+        "n98/magerun": "^2.3||^3.0",
         "php": "~7.2||~7.3||~7.4||~8.1||~8.2||~8.3||~8.4"
     },
     "authors": [
@@ -40,6 +40,9 @@
     "config": {
         "allow-plugins": {
             "aydin-hassan/magento-core-composer-installer": true
+        },
+        "audit": {
+            "block-insecure": false
         }
     }
 }
