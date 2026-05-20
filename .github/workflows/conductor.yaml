@@ -16,7 +16,7 @@ jobs:
         runs-on: "ubuntu-latest"
 
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v6
 
             # Install PHP. You can also replace this step by
             # reusing an existing workflow that sets up PHP.
@@ -26,7 +26,7 @@ jobs:
             - name: Install PHP
               uses: "shivammathur/setup-php@v2"
               with:
-                  php-version: "8.1"
+                  php-version: "latest"
                   coverage: "none"
                   # Make sure to install any additional extensions that are
                   # required to run the composer install. For more details,
